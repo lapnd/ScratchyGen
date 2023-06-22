@@ -1,0 +1,56 @@
+{
+  "heter": {
+      "core_1": {
+        "name": "femtorv",
+        "sram_s": "0x2000",
+        "ram_s": "0x4000",
+        "rom_s": "0x8000",
+        "sp_s": "0x1000"
+        },
+      "core_2": {
+        "name": "firev",
+        "sram_s": "0x2000",
+        "ram_s": "0x4000",
+        "rom_s": "0x8000",
+        "sp_s": "0x100"
+        },
+      "shared_ram": "0x200"
+    },
+  "homo_1": {
+      "core_1": {
+        "name": "firev",
+        "sram_s": "0x2000",
+        "ram_s": "0x4000",
+        "rom_s": "0x8000",
+        "sp_s": "0x1000"
+        },
+      "core_2": {
+        "name": "firev",
+        "sram_s": "0x2000",
+        "ram_s": "0x4000",
+        "rom_s": "0x8000",
+        "sp_s": "0x100"
+        },
+      "shared_ram": "0x200"
+    },
+  "homo_2": {
+      "core_1": {
+        "name": "femtorv",
+        "sram_s": "0x2000",
+        "ram_s": "0x4000",
+        "rom_s": "0x8000",
+        "sp_s": "0x1000"
+        },
+      "core_2": {
+        "name": "femtorv",
+        "sram_s": "0x2000",
+        "ram_s": "0x4000",
+        "rom_s": "0x8000",
+        "sp_s": "0x100"
+        },
+      "shared_ram": "0x200"
+    }
+
+
+
+}

@@ -1,0 +1,75 @@
+/Project build folders
+/Dual_Core/Heterogen/fireV_femtorV/build/
+
+./.idea
+
+# Prerequisites
+*.d
+
+# Object files
+*.o
+*.ko
+*.obj
+*.elf
+
+# Linker output
+*.ilk
+*.map
+*.exp
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Libraries
+*.lib
+*.a
+*.la
+*.lo
+
+# Shared objects (inc. Windows DLLs)
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# Executables
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
+*.bin
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Kernel Module Compile Results
+*.mod*
+*.cmd
+.tmp_versions/
+modules.order
+Module.symvers
+Mkfile.old
+dkms.conf
+
+# Generated from build
+
+
+/Dual_Core/Heterogen/Fire_Femto/analyzer.csv
+/Dual_Core/Heterogen/Fire_Femto/femtorv32_quark.v
+/Dual_Core/Heterogen/Fire_Femto/firev.v
+
+/Dual_Core/Homogen/Femto_Femto/build/
+/Dual_Core/Homogen/Femto_Femto/femtorv32_quark.v
+
+/Dual_Core/Heterogen/Fire_Femto/build/
+/Dual_Core/Homogen/Femto_Femto/analyzer.csv
+/Dual_Core/Homogen/Fire_Fire/build/
+/Dual_Core/Homogen/Fire_Fire/analyzer.csv
+/Dual_Core/Homogen/Fire_Fire/firev.v
+/Dual_Core/Heterogen/Fire_Femto/build_dir/
