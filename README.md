@@ -137,7 +137,7 @@ sudo gedit 50-myusb.rules
 ```bash
 SUBSYSTEMS=="usb", ACTION=="add", KERNEL=="ttyUSB[0-9]*",ATTRS{idVendor}=="0403", ATTRS{idProduct}=="6001", GROUP="users", MODE="0666"
 ```
-## Scratchy Configuration
+## Dual-Core Scratchy Configuration
 
 The Scratchy Dual core version offers three configurations, which can be specified in the configs.json file:
 - Heterogeneous Configuration:  Core 1: femtorv, Core 2: firev. To use this option use **--config heter** while building and loading the project.
@@ -146,6 +146,13 @@ The Scratchy Dual core version offers three configurations, which can be specifi
   - Both Core 1 and Core 2 are firev. To use this option use **--config homo_1** while building and loading the project.
 The configuration file (configs.json) allows for modifications to the size of the RAM, ROM, SRAM, and memory scratchpad
 
+## Fractal Scratchy Configuration
+  #TODO
+## Create your own configuration file
+1) Dual-Core Scratchy
+  #TODO
+2) Fractal Scratchy
+  #TODO
 ## Scratchy use
 1) Download scratchy: 
 ```bash
@@ -153,16 +160,16 @@ git clone https://github.com/ridope/Asymetric-Multi-Processing.git
 ```
 2) Acces the Dual_Core folder:
 ```bash
-cd Asymetric-Multi-Processing/Dual_Core/
+cd Asymetric-Multi-Processing/generators/
 ```
 3) Connect your board following its user manual instructions.
 4) build the project 
 ```bash
-./amp.py --build --config_file configs.json --config heter --mux
+./dual_core.py --build --config_file 2core_config_example.json --config heter --mux
 ```
 5) load the project
 ```bash
-./amp.py --load --config_file configs.json --config heter --mux
+./dual_core.py --load --config_file 2core_config_example.json --config heter --mux
 ```
 The build and load process has been executed with a heterogeneous configuration to use other options [see Scratchy Configuration section]( #scratchy-configuration)
 

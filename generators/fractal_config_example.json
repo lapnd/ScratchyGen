@@ -1,0 +1,40 @@
+{
+	"n_cluster":"2",
+	"n_cpus": "4",
+    "cluster_0": {
+      "n_cpus": "2",
+      "core_0": {
+        "name": "femtorv",
+        "sram": "0x2000",
+        "ram": "0x0",
+        "rom": "0x8000"
+        },
+      "core_1": {
+        "name": "firev",
+        "sram": "0x2000",
+        "ram": "0x0",
+        "rom": "0x8000"
+        },
+
+      "shared_ram": "0x100"
+    },
+
+    "cluster_1": {
+      "n_cpus" : "2",
+      "core_0": {
+        "name": "femtorv",
+        "sram": "0x2000",
+        "ram": "0x0",
+        "rom": "0x8000"
+        },
+      "core_1": {
+        "name": "firev",
+        "sram": "0x2000",
+        "ram": "0x0",
+        "rom": "0x8000"
+        },
+      "shared_ram": "0x100"
+    },
+
+    "shared_ram":"0x100"
+}

@@ -1,5 +1,5 @@
 /Project build folders
-/Dual_Core/Heterogen/fireV_femtorV/build/
+/generators/Heterogen/fireV_femtorV/build/
 
 ./.idea
 
@@ -60,16 +60,16 @@ dkms.conf
 # Generated from build
 
 
-/Dual_Core/Heterogen/Fire_Femto/analyzer.csv
-/Dual_Core/Heterogen/Fire_Femto/femtorv32_quark.v
-/Dual_Core/Heterogen/Fire_Femto/firev.v
+/generators/Heterogen/Fire_Femto/analyzer.csv
+/generators/Heterogen/Fire_Femto/femtorv32_quark.v
+/generators/Heterogen/Fire_Femto/firev.v
 
-/Dual_Core/Homogen/Femto_Femto/build/
-/Dual_Core/Homogen/Femto_Femto/femtorv32_quark.v
+/generators/Homogen/Femto_Femto/build/
+/generators/Homogen/Femto_Femto/femtorv32_quark.v
 
-/Dual_Core/Heterogen/Fire_Femto/build/
-/Dual_Core/Homogen/Femto_Femto/analyzer.csv
-/Dual_Core/Homogen/Fire_Fire/build/
-/Dual_Core/Homogen/Fire_Fire/analyzer.csv
-/Dual_Core/Homogen/Fire_Fire/firev.v
-/Dual_Core/Heterogen/Fire_Femto/build_dir/
+/generators/Heterogen/Fire_Femto/build/
+/generators/Homogen/Femto_Femto/analyzer.csv
+/generators/Homogen/Fire_Fire/build/
+/generators/Homogen/Fire_Fire/analyzer.csv
+/generators/Homogen/Fire_Fire/firev.v
+/generators/Heterogen/Fire_Femto/build_dir/

@@ -1,5 +1,4 @@
 #!/usr/bin/env python3
-
 # Copyright (c) 2022 Joseph Wagane FAYE <joseph-wagane.faye@insa-rennes.fr
 # SPDX-License-Identifier: BSD-2-Clause
 import argparse
@@ -40,7 +39,7 @@ class _CRG(Module, AutoDoc):
 
 # BaseSoC ------------------------------------------------------------------------------------------
 
-class BaseSoC(SoCMini, AutoDoc):
+class Scratchy(SoCMini, AutoDoc):
     mem_map = {
         "csr": 0x10000000,
         "rom": 0x00000000,
@@ -294,7 +293,8 @@ def extract_config(config_file, config):
 
 def main():
     from litex.soc.integration.soc import LiteXSoCArgumentParser
-    parser = LiteXSoCArgumentParser(description="LiteX AMP Dual-Core SoC generator on De10Lite")
+    parser = LiteXSoCArgumentParser(description="Scratchy AMP Dual-Core SoC generator on De10Lite")
+    #TODO : Enable FPGA platform as parameter
     target_group = parser.add_argument_group(title="Target options")
     target_group.add_argument("--platform",       default=terasic_de10lite.Platform())
     target_group.add_argument("--toolchain",      default="quartus",           help="FPGA toolchain (vivado, symbiflow or yosys+nextpnr).")
@@ -311,7 +311,7 @@ def main():
 
     configuration = extract_config(args.config_file, args.config)
 
-    soc = BaseSoC(
+    soc = Scratchy(
         platform_name  = 'De10Lite',
         platform       = args.platform,
         toolchain      = args.toolchain,
